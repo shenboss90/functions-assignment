@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+
+   <h3>This is how to use a function in javascript</h3>
+         
+    <p>The answer for 50 minus 10 is  <b id="answer"></b> </p>
+    <p>The answer for 50 multiply by 10 is  <b id="multiply"></b> </p>
+    <p>The answer for 50 divided 10 is  <b id="divide"></b> </p>
+    <p>The answer for 50 modulos 10 is  <b id="modulos"></b> </p>
+    
+
+
+
+
+
+
+    <script>
+         function subtractionOperator(a , b){
+            c =a-b
+            return c
+         }
+         subtractionOperator()
+         document.getElementById('answer').innerHTML= subtractionOperator(50 , 10)
+
+
+         function multiplicationOperator(a , b){
+            c =a*b
+            return c
+         }
+         multiplicationOperator()
+         document.getElementById('multiply').innerHTML=  multiplicationOperator(50 , 10)
+
+
+         function divisionOperator(a , b){
+            c =a/b
+            return c
+         }
+         divisionOperator()
+         document.getElementById('divide').innerHTML=  divisionOperator(50 , 10)
+
+
+         function modulosOperator(a , b){
+            c =a%b
+            return c
+         }
+         modulosOperator()
+         document.getElementById('modulos').innerHTML=  modulosOperator(50 , 10)
+         
+         
+    </script>
+</body>
+</html>
